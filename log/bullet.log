@@ -1,0 +1,686 @@
+2015-08-27 11:41:31[WARN] user: jlin
+http://localhost:3000/users/19
+Unused Eager Loading detected
+  User => [:posts, :fans]
+  Remove from your finder: :includes => [:posts, :fans]
+
+2015-08-27 11:42:38[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts, :fans]
+  Remove from your finder: :includes => [:posts, :fans]
+
+2015-08-27 11:42:47[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts, :fans]
+  Remove from your finder: :includes => [:posts, :fans]
+
+2015-08-27 11:43:21[WARN] user: jlin
+http://localhost:3000/users/2
+Unused Eager Loading detected
+  User => [:posts, :fans]
+  Remove from your finder: :includes => [:posts, :fans]
+
+2015-08-27 11:43:27[WARN] user: jlin
+http://localhost:3000/users/10
+Unused Eager Loading detected
+  User => [:posts, :fans]
+  Remove from your finder: :includes => [:posts, :fans]
+
+2015-08-27 11:51:57[WARN] user: jlin
+http://localhost:3000/users/14/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-27 11:53:06[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 11:53:17[WARN] user: jlin
+http://localhost:3000/users/19
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 11:56:44[WARN] user: jlin
+http://localhost:3000/users/7
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:57:06[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:57:21[WARN] user: jlin
+http://localhost:3000/users/7
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:57:36[WARN] user: jlin
+http://localhost:3000/users/4
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:57:40[WARN] user: jlin
+http://localhost:3000/users/3
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:57:59[WARN] user: jlin
+http://localhost:3000/users/3/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-27 13:57:59[WARN] user: jlin
+http://localhost:3000/users/3
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-27 13:58:05[WARN] user: jlin
+http://localhost:3000/users/3/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-27 13:58:05[WARN] user: jlin
+http://localhost:3000/users/3
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:12:49[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:44:27[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:45:18[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:45:27[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:45:30[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-28 09:45:30[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:49:44[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:50:01[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:56:15[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:56:42[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 09:56:45[WARN] user: jlin
+http://localhost:3000/users/4
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:09:05[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:09:10[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:09:20[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:13:19[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:13:51[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:14:33[WARN] user: jlin
+http://localhost:3000/users/5
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:16:03[WARN] user: jlin
+http://localhost:3000/users/10
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:41:03[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:41:07[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:07[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:09[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:14[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:17[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:20[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:32[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:35[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 10:42:44[WARN] user: jlin
+http://localhost:3000/users/1
+Unused Eager Loading detected
+  User => [:posts]
+  Remove from your finder: :includes => [:posts]
+
+2015-08-28 11:16:04[WARN] user: jlin
+http://localhost:3000/users/1
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265931403620'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265931403620'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265931403620'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265931403620'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'2015-08-28 11:16:31[WARN] user: jlin
+http://localhost:3000/users/5
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265931011940'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265931011940'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265931432000'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265931011940'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265931011940'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265931432000'2015-08-28 11:16:49[WARN] user: jlin
+http://localhost:3000/users/5
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265925752120'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265925752120'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265925752120'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265925752120'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'2015-08-28 11:18:41[WARN] user: jlin
+http://localhost:3000/users/5
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265936152840'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265936152840'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:18:in `block in _app_views_users__show_right_html_haml___4449808794243790782_70265936152840'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/_show_right.html.haml:13:in `_app_views_users__show_right_html_haml___4449808794243790782_70265936152840'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/users/show.html.haml:7:in `_app_views_users_show_html_haml___843521322932297730_70265915778120'2015-08-28 11:26:07[WARN] user: jlin
+http://localhost:3000/users/20/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-29 11:55:33[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-29 11:59:20[WARN] user: jlin
+http://localhost:3000/users/12/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-31 16:20:49[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230642772640'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230636255240'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230636255240'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230642772640'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230636255240'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230636255240'2015-08-31 16:22:20[WARN] user: jlin
+http://localhost:3000/posts/
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230642772640'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230636920720'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230636920720'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230642772640'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230636920720'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230636920720'2015-08-31 16:24:07[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230651355760'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:16:in `_app_views_posts__post_html_haml___3013519718324088207_70230651355760'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230651281440'2015-08-31 16:27:21[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___3013519718324088207_70230652143520'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___3013519718324088207_70230652143520'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4407607806776955271_70230651281440'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4407607806776955271_70230651281440'2015-08-31 17:57:50[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-08-31 21:49:31[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355204069080'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355204069080'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'2015-08-31 21:49:32[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355204069080'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355204069080'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'2015-08-31 21:50:12[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355162593200'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355201817740'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355201817740'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355162593200'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355201817740'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355201817740'2015-08-31 22:06:51[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355202197220'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___696039686794892104_70355202197220'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___189682441122037556_70355239182440'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___189682441122037556_70355239182440'2015-08-31 22:54:12[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113821275680'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113821275680'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808736880'2015-08-31 22:54:27[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:54:37[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:54:43[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:56:28[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:56:53[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:57:01[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:57:08[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:57:10[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-08-31 22:57:52[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113821275680'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113821275680'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808736880'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808736880'2015-08-31 22:58:04[WARN] user: jlin
+http://localhost:3000/posts
+N+1 Query detected
+  Post => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+  /Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/_post.html.haml:5:in `_app_views_posts__post_html_haml___4319347337381602641_70113869982660'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:3:in `block in _app_views_posts_index_html_haml___4143839246179625969_70113808349900'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `each'
+/Users/jlin/Desktop/toys/tweetComposer/app/views/posts/index.html.haml:2:in `_app_views_posts_index_html_haml___4143839246179625969_70113808349900'2015-09-01 13:44:42[WARN] user: jlin
+http://localhost:3000/users/11/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 13:44:55[WARN] user: jlin
+http://localhost:3000/users/2/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 14:27:06[WARN] user: jlin
+http://localhost:3000/users/10/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 14:27:23[WARN] user: jlin
+http://localhost:3000/users/2/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 17:04:55[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 17:06:42[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 17:06:45[WARN] user: jlin
+http://localhost:3000/users/1/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-01 17:12:10[WARN] user: jlin
+http://localhost:3000/users/13/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:07:16[WARN] user: jlin
+http://localhost:3000/users/4/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:07:30[WARN] user: jlin
+http://localhost:3000/users/4/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:15:48[WARN] user: jlin
+http://localhost:3000/users/19/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:15:49[WARN] user: jlin
+http://localhost:3000/users/19/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:15:50[WARN] user: jlin
+http://localhost:3000/users/19/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:15:52[WARN] user: jlin
+http://localhost:3000/users/19/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:16:25[WARN] user: jlin
+http://localhost:3000/users/9/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+
+2015-09-02 15:33:24[WARN] user: jlin
+http://localhost:3000/users/9/followships
+Unused Eager Loading detected
+  User => [:fans]
+  Remove from your finder: :includes => [:fans]
+

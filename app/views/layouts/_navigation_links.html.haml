@@ -1,0 +1,12 @@
+%li= link_to('Tweets', posts_path)
+- if user_signed_in?
+  %li= link_to('Edit account', edit_user_registration_path)
+  %li= link_to('Sign out', destroy_user_session_path, method:'delete')
+  %li= link_to('Users', users_path)
+  %li= link_to('Tweets: ' + current_user.post_count.to_s, user_path(current_user))
+  %li= link_to('Followers: ' + current_user.follower_count.to_s, user_followships_path(current_user))
+  %li= link_to('Following: ' + current_user.followee_count.to_s, user_followships_path(current_user))
+
+- else
+  %li= link_to('Sign in', new_user_session_path(current_user))
+  %li= link_to('Register', new_user_registration_path(current_user))

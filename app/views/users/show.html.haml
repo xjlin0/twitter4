@@ -1,0 +1,7 @@
+.container-fluid
+  .row
+    .col-xs-4
+      = render 'show_left', user: @user, hot_tags: @hot_tags #check if @user can be used instead.
+    .col-xs-8
+      = render 'posts/new', user: @user#, post: @post
+      = render 'show_right', user: @user, posts: @posts  #check if @user can be used instead.

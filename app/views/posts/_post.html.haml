@@ -1,0 +1,20 @@
+.panel
+  .panel-heading
+    .panel-title.tweets{'data-id' =>  post.id}
+      = link_to(post.content, user_path(post.user))
+  .panel-body
+    %button.btn.btn-default.vote{type: "button"}
+      %span.glyphicon.glyphicon-thumbs-up{'data-id' => post.id}
+      %span.badge{'data-id' => post.id, value: 'Up', alt: 'thumbs-up'} #{post.cached_votes_up} 
+    %button.btn.btn-default.vote{type: "button"}
+      %span.glyphicon.glyphicon-thumbs-down{'data-id' => post.id} 
+      %span.badge{'data-id' => post.id, value: 'Down', alt: 'thumbs-down'} #{post.cached_votes_down}
+    - unless post.cached_tag_list.blank?
+      %strong
+        = #pluralize(post.cached_tag_list.count('#'), 'Hashtag').sub(/^\d+\s/, '')+': '
+        = post.cached_tag_list.count('#') > 1 ? 'Hashtags: ' : 'Hashtag: '
+        =post.cached_tag_list
+    \- Posted by
+    = link_to(post.user.name + ",", post.user)
+    = time_ago_in_words(post.created_at)
+    ago.

@@ -1,0 +1,8 @@
+.well
+  %h2 New tweet
+  = form_for(:post, url: create_post_path) do  #remote: true would need to notify user and refresh posted tweet
+    - at_tag = current_user == user || user.name.nil? ? nil : "@"+user.name+" "
+    = text_area_tag('post[content]', at_tag, {class: 'form-control', autofocus: true, onfocus: "this.selectionStart = this.selectionEnd = this.value.length;", width: "100%"}) #onfocus: "this.value = this.value;" in HTML options doesn't work, the above line is using jQuery http://stackoverflow.com/a/10576409
+    = hidden_field_tag('post[user_id]', current_user.id)
+    = submit_tag('Submit', class: "button btn btn-lg btn-info")
+    %span.charCount 140

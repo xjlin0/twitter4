@@ -1,0 +1,29 @@
+.well
+  %h3 User #{user.name}
+  = image_tag(user.img_url, {alt: "User " + user.name + "'s picture", class: "thumbnail"})
+
+  -if current_user == user
+    %p
+      Email: 
+      = mail_to(user.email, nil, {type: "email"})
+  %p
+    User #{user.name} has posted 
+    = pluralize(user.post_count, 'tweet') 
+    so far.
+  = follow_button({user: user, extra_class: 'btn-lg btn-info'})
+
+.well
+  - unless user.followee_count.zero? #move this block to helper
+    %h4 User #{user.name} is following:
+    - user.idols.each do |idol|
+      .panel
+        = follow_button({user: idol, extra_class: 'btn-xs btn-info pull-left'})
+        = link_to(idol.name, idol)
+  - else
+    %h3 User #{user.name} is not following anyone.
+
+.well
+  %h4 Trending:
+  - hot_tags.each do |tag|
+    .panel
+      = link_to(tag.name, posts_path(tag_id: tag.id))

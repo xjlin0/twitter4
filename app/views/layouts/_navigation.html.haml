@@ -1,0 +1,20 @@
+-# navigation styled for Bootstrap 3.0
+%nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header 
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to 'Home', root_path, class: 'navbar-brand'
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        = render 'layouts/navigation_links'
+      - if user_signed_in?
+        .navbar-form.text-right
+          .input-group
+            %input.form-control{id: "searchTerm", type: "text", placeholder: "search for user/#tag"}
+            %span.input-group-btn
+              %button.btn.btn-default{id: "searchButton", type: "button"}
+                %span.glyphicon.glyphicon-search{alt: 'go!', 'aria-label' => 'go!'}

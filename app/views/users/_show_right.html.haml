@@ -1,0 +1,11 @@
+.well
+
+  -#This is for singed in user only
+
+  - unless posts.empty? #move this block to helper, need to send both posts and current_user
+    %h3 User #{user.name} and user's idols lastest tweets:
+    - posts.reverse_each do |post|
+      = render post
+        
+  - else
+    %h3 User #{user.name} does not have any tweets.

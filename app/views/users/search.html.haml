@@ -1,0 +1,9 @@
+.container
+  .row
+    %h3 Search Results
+    .column
+      %table.table
+        %tbody
+          - @results.each do |result|
+            %tr
+              = render result

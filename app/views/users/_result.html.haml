@@ -1,0 +1,4 @@
+- if result.is_a?(User)
+  %td= link_to result.name, result
+- else
+	%td= link_to result.user.name, result.user
