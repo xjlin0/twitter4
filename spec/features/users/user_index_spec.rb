@@ -20,6 +20,7 @@ feature 'User index page', :devise do
     login_as(user, scope: :user)
     visit users_path   #this is all users page
     expect(page).to have_no_content user.email
+    user.destroy
   end
 
 end

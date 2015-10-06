@@ -21,6 +21,7 @@ feature 'User profile page', :devise do
     visit user_path(user)
     expect(page).to have_content 'User'
     expect(page).to have_content user.email
+    user.destroy
   end
 
   # Scenario: User cannot see another user's email
@@ -34,6 +35,8 @@ feature 'User profile page', :devise do
     Capybara.current_session.driver.header 'Referer', root_path
     visit user_path(other)
     expect(page).to have_no_content('email')
+    me.destroy
+    other.destroy
   end
 
 end

@@ -9,7 +9,7 @@ feature 'Sign in', :devise do
   #   When I sign in with valid credentials
   #   Then I see an invalid credentials message
   scenario 'user cannot sign in if not registered' do
-    signin('test@example.com', 'please123')
+    signin('test@example.com', 'password')
     expect(page).to have_content I18n.t 'devise.failure.not_found_in_database', authentication_keys: 'email'
   end
 
@@ -33,6 +33,7 @@ feature 'Sign in', :devise do
     user = FactoryGirl.create(:user, email: Faker::Internet.email)
     signin('invalid@email.com', user.password)
     expect(page).to have_content I18n.t 'devise.failure.not_found_in_database', authentication_keys: 'email'
+    user.destroy
   end
 
   # Scenario: User cannot sign in with wrong password
@@ -44,6 +45,7 @@ feature 'Sign in', :devise do
     user = FactoryGirl.create(:user, email: Faker::Internet.email)
     signin(user.email, 'invalidpass')
     expect(page).to have_content I18n.t 'devise.failure.invalid', authentication_keys: 'email'
+    user.destroy
   end
 
 end

@@ -7,12 +7,12 @@
 describe Followship do
 
   before(:each) do #using User#new will followship error due to the lack of user id
-  	@followee   = FactoryGirl.create(:user, email: 'followee@example.com')
-  	@follower   = FactoryGirl.create(:user, email: 'follower@example.com')
+  	@followee   = FactoryGirl.create(:user, email: Faker::Internet.email)
+  	@follower   = FactoryGirl.create(:user, email: Faker::Internet.email)
   	@followship = Followship.create(followee: @followee, follower: @follower)
   end
 
-  subject { @followship }
+  #subject { @followship }
 
   it "should reject followship creation without followee_id" do
     expect(Followship.create(followee_id: nil).errors.messages).to include(:followee_id)
@@ -26,7 +26,7 @@ describe Followship do
     expect(Followship.create(followee: @followee, follower: @follower).errors.messages).to include(:followee_id)
   end
 
-  it { should respond_to(:followee) }
+  #it { should respond_to(:followee) }
 
   it "#followee_id returns the id of the user been followed" do
     expect(@followship.followee_id).to match @followee.id
@@ -36,7 +36,7 @@ describe Followship do
     expect(@followship.followee).to match @followee
   end
 
-  it { should respond_to(:follower) }
+  #it { should respond_to(:follower) }
 
   it "#follower_id returns the id of the follower" do
     expect(@followship.follower_id).to match @follower.id
@@ -44,6 +44,12 @@ describe Followship do
 
   it "#follower returns the instance of the follower" do
     expect(@followship.follower).to match @follower
+  end
+
+  after(:each) do #using User#new will followship error due to the lack of user id
+    @followee.destroy!
+    @follower.destroy!
+    @followship.destroy!
   end
 
 end

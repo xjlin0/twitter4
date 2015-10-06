@@ -140,3 +140,75 @@ WHERE fk.referenced_column_name is not null
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (2.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'user@example.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'quigonj@starwars.com' LIMIT 1[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO `users` (`name`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Test User', 'quigonj@starwars.com', '$2a$10$LKDP3q.g5dFsarwbEKlULeVUUz5BUryelipTh9BZuMhUk/bbMtUC.', '2015-10-02 18:14:22', '2015-10-02 18:14:22')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'obiwank@starwars.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Test User', 'obiwank@starwars.com', '$2a$10$RUTCww8xY1MShmpFNYFdq.GymbSm8yyCa.Dx2uE8/4okuZU0ApbXu', '2015-10-02 18:14:22', '2015-10-02 18:14:22')
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'anakins@starwars.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('Test User', 'anakins@starwars.com', '$2a$10$w50uUTln555zCSqc7e3.l.UASnGa.Me/nu71J9EdytdYJsTQs0qda', '2015-10-02 18:14:23', '2015-10-02 18:14:23')
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFollowship Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM `followships` WHERE (`followships`.`followee_id` = BINARY 23 AND `followships`.`follower_id` = 22) LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `followships` (`follower_id`, `followee_id`, `created_at`, `updated_at`) VALUES (22, 23, '2015-10-02 18:14:28', '2015-10-02 18:14:28')
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `users` SET `followee_count` = COALESCE(`followee_count`, 0) + 1 WHERE `users`.`id` = 23[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `users` SET `follower_count` = COALESCE(`follower_count`, 0) + 1 WHERE `users`.`id` = 22[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` INNER JOIN `followships` ON `users`.`id` = `followships`.`followee_id` WHERE `followships`.`follower_id` = 22[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFollowship Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `followships` WHERE (`followships`.`followee_id` = BINARY 24 AND `followships`.`follower_id` = 22) LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `followships` (`follower_id`, `followee_id`, `created_at`, `updated_at`) VALUES (22, 24, '2015-10-02 18:14:28', '2015-10-02 18:14:28')
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `users` SET `followee_count` = COALESCE(`followee_count`, 0) + 1 WHERE `users`.`id` = 24[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE `users` SET `follower_count` = COALESCE(`follower_count`, 0) + 1 WHERE `users`.`id` = 22[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFollowship Exists (0.3ms)[0m  SELECT  1 AS one FROM `followships` WHERE (`followships`.`followee_id` = BINARY 24 AND `followships`.`follower_id` = 23) LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `followships` (`follower_id`, `followee_id`, `created_at`, `updated_at`) VALUES (23, 24, '2015-10-02 18:14:28', '2015-10-02 18:14:28')[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE `users` SET `followee_count` = COALESCE(`followee_count`, 0) + 1 WHERE `users`.`id` = 24
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 23 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE `users` SET `follower_count` = COALESCE(`follower_count`, 0) + 1 WHERE `users`.`id` = 23
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT `users`.* FROM `users` INNER JOIN `followships` ON `users`.`id` = `followships`.`followee_id` WHERE `followships`.`follower_id` = 23
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFollowship Load (0.4ms)[0m  SELECT `followships`.* FROM `followships` WHERE `followships`.`follower_id` = 22 AND `followships`.`followee_id` IN (23, 24)
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `followships` WHERE `followships`.`id` = 91[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 23 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `users` SET `followee_count` = COALESCE(`followee_count`, 0) - 1 WHERE `users`.`id` = 23[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE `users` SET `follower_count` = COALESCE(`follower_count`, 0) - 1 WHERE `users`.`id` = 22[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM `followships` WHERE `followships`.`id` = 92
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 24 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE `users` SET `followee_count` = COALESCE(`followee_count`, 0) - 1 WHERE `users`.`id` = 24
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 22 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE `users` SET `follower_count` = COALESCE(`follower_count`, 0) - 1 WHERE `users`.`id` = 22
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
